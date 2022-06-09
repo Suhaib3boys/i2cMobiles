@@ -1,0 +1,108 @@
+:root {
+  --bs-my: #9b5de5;
+}
+
+body {
+  background: #192226 !important;
+}
+
+.navbar-inverse {
+  background: #222b31 !important;
+  border-bottom: 4px solid #ee445f !important;
+}
+
+h1,
+h2,
+h3,
+h5,
+p {
+  color: var(--bs-white);
+}
+
+.nav-hight {
+  height: 10vh !important;
+}
+
+.navbar-brand {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.service-container {
+  margin-top: 1rem !important;
+}
+
+.nav {
+  margin-bottom: 0px;
+}
+
+.nav a {
+  font: 500 11px Lato;
+  letter-spacing: 2px;
+  padding: 16px !important;
+  color: #a3bfc6 !important;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1000;
+}
+
+.nav a:hover {
+  color: #fff !important;
+}
+
+.nav li {
+  position: relative;
+}
+
+.navbar-inverse .navbar-toggle {
+  border: none;
+}
+
+.navbar-collapse {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border: none !important;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+  background: transparent !important;
+}
+
+.navbar-inverse .navbar-toggle:focus {
+  background: transparent !important;
+}
+
+.navbar-inverse .navbar-toggle:active {
+  background: transparent !important;
+}
+
+.icon-bar {
+  background: #a3bfc6 !important;
+}
+
+.hover {
+  display: block;
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background: #ee445f !important;
+  z-index: 0;
+  opacity: 0;
+}
+
+.carousel-inner {
+  margin-top: 12vh !important;
+}
+
+@media (max-width: 768px) {
+  .nav-hight {
+    height: auto !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
