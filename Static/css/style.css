@@ -1,9 +1,27 @@
 :root {
   --bs-my: #9b5de5;
+  --brand: #ffcb74;
+  --brand-second: #99;
+  --ser-dark: black;
+  --ser-light: black;
+}
+
+a {
+  text-decoration: none !important;
 }
 
 body {
   background: #192226 !important;
+}
+
+.services .dark h5,
+.services .dark p {
+  color: var(--ser-dark);
+}
+
+.services .light h5,
+.services .light p {
+  color: var(--ser-light);
 }
 
 .navbar-inverse {
